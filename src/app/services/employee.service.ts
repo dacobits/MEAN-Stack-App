@@ -6,7 +6,7 @@ import { Employee } from '../models/employee';
   providedIn: 'root',
 })
 export class EmployeeService {
-  URL_API = 'http://localhost:3000/api/employees';
+  URL_API = 'https://mean-stack-server.onrender.com/api/emlpoyees';
 
   selectedEmployee: Employee = {
     name: '',
